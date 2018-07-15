@@ -1,0 +1,154 @@
+.navbar-nav {
+  width: 100%;
+  text-align: center;
+}
+.navbar-nav > li.centered{
+  float: none !important;
+  display: inline-block !important;
+}
+
+
+@media (min-width: 1200px) {
+  .container.book-form {
+    width: 450px !important;
+  }
+}
+
+@media (min-width: 768px){
+.container.book-form{
+  width: 450px !important;
+  }
+}
+
+@media (min-width: 992px){
+  .container.book-form{
+  width: 450px !important;
+}
+
+@media (min-width: 1200px) {
+  .container.form {
+    width: 250px !important;
+  }
+}
+
+@media (min-width: 768px){
+.container.form{
+  width: 250px !important;
+  }
+}
+
+@media (min-width: 992px){
+  .container.form{
+  width: 250px !important;
+  }
+}
+.btn.btn-primary.btn-sm.navbar-btn{
+    padding: 10px !important;
+    
+}
+.nav-link{
+  color: black !important;
+}
+.navbar-default .navbar-nav>li>a.nav-link{
+  color:black !important;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+  color:black !important;
+}
+.navbar-default .navbar-nav>li>a{
+  color:white !important
+}
+}
+.max-lines {
+  display: block; /* or inline-block */
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow: hidden;
+  height: 267px;
+  line-height: 1.8em;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.nav-adjustPadding{
+  position: relative;
+    display: block;
+    padding: 15px 15px;
+    font-weight: 600;
+}
+.row{
+  padding-top: 10px;
+}
+
+/* cards */
+
+.card *:hover{
+text-decoration: none;
+}
+
+.card .thumbnail{
+padding: 0;
+border: none;
+text-align: center;
+border-radius: 0;
+-webkit-box-shadow: 0px 0.5px 1px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0.5px 1px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0.5px 1px 0px rgba(0,0,0,0.75);
+}
+
+.card .thumbnail .caption{
+margin: -20px 20px 20px 20px;
+padding: 19px 29px 19px 29px;
+position: relative;
+background-color: white;
+}
+
+.card .thumbnail .caption h3 small{
+font-style: italic;
+text-transform: none;
+letter-spacing: 0;
+font-weight: 400;
+font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+display: block;
+padding: 5px;
+}
+
+.card .thumbnail .caption h3{
+font-family: 'Raleway',sans-serif; 
+font-weight: 600;
+letter-spacing: -1px;
+margin-top: 0;
+text-transform: uppercase;
+font-size: 18px;
+}
+
+.card .thumbnail .caption hr{
+border-top: 1px solid #333;
+margin: 20px 40px;
+}
+
+.card .thumbnail .caption p{
+font-size: 12px;
+line-height: 1.6;
+}
+
+.card .thumbnail .caption button{
+border-radius: 0;
+color: #aaa;
+-moz-transition: 0.3s;
+-webkit-transition: 0.3s;
+-o-transition: 0.3s;
+transition: 0.3s;
+}
+
+.card .thumbnail .caption button:hover{
+background-color: black;
+border-color: black;
+color: white;
+-moz-transition: 0.3s;
+-webkit-transition: 0.3s;
+-o-transition: 0.3s;
+transition: 0.3s;
+}
